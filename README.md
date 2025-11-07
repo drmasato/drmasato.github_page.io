@@ -1,31 +1,32 @@
 # drmasato.github_page.io
 
-このリポジトリは drmasato の個人用ホームページのソースです。シンプルな静的サイトとして index.html をルートに配置しています。
+このリポジトリは drmasato の個人用ホームページのソースです。
 
-## 概要
-- サイト: 個人の紹介、連絡先、リンクを掲載するシンプルな静的ページ
-- ファイル: index.html をルートに配置
-- ライセンス: Apache-2.0
+サイトについて
 
-## カスタマイズ方法
-- index.html を編集して自己紹介文、メールアドレス、外部リンクを更新してください。
-- 変更は新しいブランチを作成してからプルリクエストでマージすると安全です。
+- シンプルな静的 HTML で構成された個人サイトです。現状のトップページは index.html にあります。
+- 紹介、連絡先、リンクなどの基本情報を掲載します。
 
-ローカルでの確認方法:
-- ブラウザで index.html を直接開くか、簡易サーバーを立ち上げて確認します。
-  - 例: `python -m http.server` をサイトのルートで実行し、http://localhost:8000 を開く
+編集方法
 
-## 公開 (GitHub Pages)
-1. リポジトリの Settings -> Pages に移動
-2. Source を `main` ブランチの `/ (root)` に設定
-3. Save すると数分で公開されます（URL は https://drmasato.github.io/drmasato.github_page.io または、ユーザーページの設定により変わります）
+1. このリポジトリをフォーク／クローンします。
+2. main ブランチ上で編集を行い、変更を push してください。
+3. 必要に応じてブランチを作成してプルリクエストで変更を送ってください。
 
-## 貢献
-- Issue やプルリクエストで提案を歓迎します。
+GitHub Pages
 
-## 連絡先
-- メール: example@example.com（index.html にも記載、必要に応じて変更してください）
+- サイトを公開するには、リポジトリの Settings -> Pages で main ブランチのルートをビルド対象に設定してください。
 
----
+カスタマイズ例
 
-*Generated and committed by GitHub Copilot.*
+- 
+  - サイトタイトルや自己紹介文を index.html 内で編集してください。
+  - メールアドレス（現在 example@example.com）を実際の連絡先に変更してください。
+
+ライセンス
+
+このリポジトリは Apache License 2.0 の下で公開されています。
+
+連絡先
+
+- GitHub: https://github.com/drmasato
